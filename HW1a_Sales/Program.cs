@@ -29,7 +29,7 @@ namespace HW1a_Sales
             double orderTotal = Math.Round(subtotal + taxTotal, 2);
 
             Console.WriteLine("Your subtotal for your bill is $" + subtotal + ".");
-            Console.WriteLine("Your sales tax for your bill is " + taxTotal + ".");
+            Console.WriteLine("Your sales tax for your bill is $" + taxTotal + ".");
             Console.WriteLine("Your total for your bill is $" + orderTotal + ".");
 
             Console.WriteLine("Press any key to continue...");
